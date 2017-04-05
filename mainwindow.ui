@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>537</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PHPQt5 SDK Tools Iinstaller</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget_3 {background:#ffffff;}</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label_14">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="assets.qrc">:/assets/pqengine.png</pixmap>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_15">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#00557f;&quot;&gt;PHPQt5 SDK Tools&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_7">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QStackedWidget" name="stackedWidget">
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QStackedWidget QWidget#page { background:#ffffff; }</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="page">
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="4" column="0">
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_13">
+             <property name="text">
+              <string>Click Next to continue.</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This installer provides you with the &lt;span style=&quot; font-weight:600;&quot;&gt;0.2&lt;/span&gt; version of PHPQt5 SDK Tools.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#00557f;&quot;&gt;Welcome to the PHPQt5 SDK Tools installer&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+          <zorder>label</zorder>
+          <zorder>label_2</zorder>
+          <zorder>verticalSpacer</zorder>
+          <zorder>label_13</zorder>
+         </widget>
+         <widget class="QWidget" name="page_2">
+          <layout class="QGridLayout" name="gridLayout_3">
+           <item row="5" column="0">
+            <widget class="QLabel" name="label_11">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#ff5500;&quot;&gt;⚠&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1" colspan="2">
+            <widget class="QLabel" name="label_8">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This product is a currently tested with &lt;span style=&quot; font-weight:600;&quot;&gt;Qt 5.8.0 for Windows 32-bit VS 2015&lt;/span&gt; and &lt;span style=&quot; font-weight:600;&quot;&gt;Qt Creator 4.2.1&lt;/span&gt;. You are advised to use only the specified version of Qt.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0" colspan="3">
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#00557f;&quot;&gt;Install Folder&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="label_10">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#ff5500;&quot;&gt;⚠&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1" colspan="2">
+            <widget class="QLabel" name="label_9">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This installer will replace some original Qt files.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="0">
+            <spacer name="verticalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item row="7" column="0" colspan="2">
+            <widget class="QLineEdit" name="lineEdit_installPath"/>
+           </item>
+           <item row="7" column="2">
+            <widget class="QPushButton" name="pushButton_browse">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>Browse...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0" colspan="3">
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>Please choose the folder where the Qt Creator is located:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0" colspan="3">
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#000000;&quot;&gt;Attention!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_3">
+          <layout class="QGridLayout" name="gridLayout_6">
+           <item row="3" column="0">
+            <widget class="QRadioButton" name="radioButton_accept">
+             <property name="text">
+              <string>I have read and argee to these terms and conditions.</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QRadioButton" name="radioButton_decline">
+             <property name="text">
+              <string>I do not accept the terms and conditions of the above license agreements.</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#00557f;&quot;&gt;License Agreement&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_6">
+             <property name="text">
+              <string>Please read the following license agreement. You must accept the terms contained in this agreement before continuing with the installation.</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QTabWidget" name="tabWidget">
+             <property name="currentIndex">
+              <number>0</number>
+             </property>
+             <widget class="QWidget" name="tab">
+              <attribute name="title">
+               <string>PHPQt5</string>
+              </attribute>
+              <layout class="QGridLayout" name="gridLayout_9">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QTextBrowser" name="textBrowser">
+                 <property name="html">
+                  <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:18px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;mozilla-public-license-version-2.0&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;M&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;ozilla Public License&lt;br /&gt;Version 2.0&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;definitions&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;. Definitions&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:8px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1.1. “Contributor”&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;means each individual or legal entity that creates, contributes to the creation of, or owns Covered Software.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1.2. “Contributor Version”&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;means the combination of the Contributions of others (if any) used by a Contributor and that particular Contributor’s Contribution.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1.3. “Contribution”&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;means Covered Software of a particular Contributor.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1.4. “Covered Software”&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;means Source Code Form to which the initial Contributor has attached the notice in Exhibit A, the Executable Form of such Source Code Form, and Modifications of such Source Code Form, in each case including portions thereof.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1.5. “Incompatible With Secondary Licenses”&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;means&lt;/span&gt;&lt;/p&gt;
+&lt;ol type=&quot;a&quot; style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;that the initial Contributor has attached the notice described in Exhibit B to the Covered Software; or&lt;/li&gt;
+&lt;li style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;that the Covered Software was made available under the terms of version 1.1 or earlier of the License, but not also under the terms of a Secondary License.&lt;/li&gt;&lt;/ol&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1.6. “Executable Form”&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;means any form of the work other than Source Code Form.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1.7. “Larger Work”&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;means a work that combines Covered Software with other material, in a separate file or files, that is not Covered Software.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1.8. “License”&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;means this document.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1.9. “Licensable”&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;means having the right to grant, to the maximum extent possible, whether at the time of the initial grant or subsequently, any and all of the rights conveyed by this License.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1.10. “Modifications”&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;means any of the following:&lt;/span&gt;&lt;/p&gt;
+&lt;ol type=&quot;a&quot; style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;any file in Source Code Form that results from an addition to, deletion from, or modification of the contents of Covered Software; or&lt;/li&gt;
+&lt;li style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;any new file in Source Code Form that contains any Covered Software.&lt;/li&gt;&lt;/ol&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1.11. “Patent Claims” of a Contributor&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;means any patent claim(s), including without limitation, method, process, and apparatus claims, in any patent Licensable by such Contributor that would be infringed, but for the grant of the License, by the making, using, selling, offering for sale, having made, import, or transfer of either its Contributions or its Contributor Version.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1.12. “Secondary License”&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;means either the GNU General Public License, Version 2.0, the GNU Lesser General Public License, Version 2.1, the GNU Affero General Public License, Version 3.0, or any later versions of those licenses.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1.13. “Source Code Form”&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;means the form of the work preferred for making modifications.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1.14. “You” (or “Your”)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:30px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;means an individual or a legal entity exercising rights under this License. For legal entities, “You” includes any entity that controls, is controlled by, or is under common control with You. For purposes of this definition, “control” means (a) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (b) ownership of more than fifty percent (50%) of the outstanding shares or beneficial ownership of such entity.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;license-grants-and-conditions&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;. License Grants and Conditions&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;grants&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;.1. Grants&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;Each Contributor hereby grants You a world-wide, royalty-free, non-exclusive license:&lt;/span&gt;&lt;/p&gt;
+&lt;ol type=&quot;a&quot; style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;under intellectual property rights (other than patent or trademark) Licensable by such Contributor to use, reproduce, make available, modify, display, perform, distribute, and otherwise exploit its Contributions, either on an unmodified basis, with Modifications, or as part of a Larger Work; and&lt;/li&gt;
+&lt;li style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;under Patent Claims of such Contributor to make, use, sell, offer for sale, have made, import, and otherwise transfer either its Contributions or its Contributor Version.&lt;/li&gt;&lt;/ol&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;effective-date&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;.2. Effective Date&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;The licenses granted in Section 2.1 with respect to any Contribution become effective for each Contribution on the date the Contributor first distributes such Contribution.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;limitations-on-grant-scope&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;.3. Limitations on Grant Scope&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;The licenses granted in this Section 2 are the only rights granted under this License. No additional rights or licenses will be implied from the distribution or licensing of Covered Software under this License. Notwithstanding Section 2.1(b) above, no patent license is granted by a Contributor:&lt;/span&gt;&lt;/p&gt;
+&lt;ol type=&quot;a&quot; style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;for any code that a Contributor has removed from Covered Software; or&lt;/li&gt;
+&lt;li style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;for infringements caused by: (i) Your and any other third party’s modifications of Covered Software, or (ii) the combination of its Contributions with other software (except as part of its Contributor Version); or&lt;/li&gt;
+&lt;li style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;under Patent Claims infringed by Covered Software in the absence of its Contributions.&lt;/li&gt;&lt;/ol&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;This License does not grant any rights in the trademarks, service marks, or logos of any Contributor (except as may be necessary to comply with the notice requirements in Section 3.4).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;subsequent-licenses&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;.4. Subsequent Licenses&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;No Contributor makes additional grants as a result of Your choice to distribute the Covered Software under a subsequent version of this License (see Section 10.2) or under the terms of a Secondary License (if permitted under the terms of Section 3.3).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;representation&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;.5. Representation&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;Each Contributor represents that the Contributor believes its Contributions are its original creation(s) or it has sufficient rights to grant the rights to its Contributions conveyed by this License.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;fair-use&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;.6. Fair Use&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;This License is not intended to limit any rights You have under applicable copyright doctrines of fair use, fair dealing, or other equivalents.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;conditions&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;.7. Conditions&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;Sections 3.1, 3.2, 3.3, and 3.4 are conditions of the licenses granted in Section 2.1.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;responsibilities&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;. Responsibilities&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;distribution-of-source-form&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;.1. Distribution of Source Form&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;All distribution of Covered Software in Source Code Form, including any Modifications that You create or to which You contribute, must be under the terms of this License. You must inform recipients that the Source Code Form of the Covered Software is governed by the terms of this License, and how they can obtain a copy of this License. You may not attempt to alter or restrict the recipients’ rights in the Source Code Form.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;distribution-of-executable-form&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;.2. Distribution of Executable Form&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;If You distribute Covered Software in Executable Form then:&lt;/span&gt;&lt;/p&gt;
+&lt;ol type=&quot;a&quot; style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;such Covered Software must also be made available in Source Code Form, as described in Section 3.1, and You must inform recipients of the Executable Form how they can obtain a copy of such Source Code Form by reasonable means in a timely manner, at a charge no more than the cost of distribution to the recipient; and&lt;/li&gt;
+&lt;li style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;You may distribute such Executable Form under the terms of this License, or sublicense it under different terms, provided that the license for the Executable Form does not attempt to limit or alter the recipients’ rights in the Source Code Form under this License.&lt;/li&gt;&lt;/ol&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;distribution-of-a-larger-work&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;.3. Distribution of a Larger Work&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;You may create and distribute a Larger Work under terms of Your choice, provided that You also comply with the requirements of this License for the Covered Software. If the Larger Work is a combination of Covered Software with a work governed by one or more Secondary Licenses, and the Covered Software is not Incompatible With Secondary Licenses, this License permits You to additionally distribute such Covered Software under the terms of such Secondary License(s), so that the recipient of the Larger Work may, at their option, further distribute the Covered Software under the terms of either this License or such Secondary License(s).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;notices&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;.4. Notices&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;You may not remove or alter the substance of any license notices (including copyright notices, patent notices, disclaimers of warranty, or limitations of liability) contained within the Source Code Form of the Covered Software, except that You may alter any license notices to the extent required to remedy known factual inaccuracies.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;application-of-additional-terms&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;.5. Application of Additional Terms&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;You may choose to offer, and to charge a fee for, warranty, support, indemnity or liability obligations to one or more recipients of Covered Software. However, You may do so only on Your own behalf, and not on behalf of any Contributor. You must make it absolutely clear that any such warranty, support, indemnity, or liability obligation is offered by You alone, and You hereby agree to indemnify every Contributor for any liability incurred by such Contributor as a result of warranty, support, indemnity or liability terms You offer. You may include additional disclaimers of warranty and limitations of liability specific to any jurisdiction.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;inability-to-comply-due-to-statute-or-regulation&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;4&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;. Inability to Comply Due to Statute or Regulation&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Covered Software due to statute, judicial order, or regulation then You must: (a) comply with the terms of this License to the maximum extent possible; and (b) describe the limitations and the code they affect. Such description must be placed in a text file included with all distributions of the Covered Software under this License. Except to the extent prohibited by statute or regulation, such description must be sufficiently detailed for a recipient of ordinary skill to be able to understand it.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;termination&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;5&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;. Termination&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;5.1. The rights granted under this License will terminate automatically if You fail to comply with any of its terms. However, if You become compliant, then the rights granted under this License from a particular Contributor are reinstated (a) provisionally, unless and until such Contributor explicitly and finally terminates Your grants, and (b) on an ongoing basis, if such Contributor fails to notify You of the non-compliance by some reasonable means prior to 60 days after You have come back into compliance. Moreover, Your grants from a particular Contributor are reinstated on an ongoing basis if such Contributor notifies You of the non-compliance by some reasonable means, this is the first time You have received notice of non-compliance with this License from such Contributor, and You become compliant prior to 30 days after Your receipt of the notice.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;5.2. If You initiate litigation against any entity by asserting a patent infringement claim (excluding declaratory judgment actions, counter-claims, and cross-claims) alleging that a Contributor Version directly or indirectly infringes any patent, then the rights granted to You by any and all Contributors for the Covered Software under Section 2.1 of this License shall terminate.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;5.3. In the event of termination under Sections 5.1 or 5.2 above, all end user license agreements (excluding distributors and resellers) which have been validly granted by You or Your distributors under this License prior to termination shall survive termination.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;disclaimer-of-warranty&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;6&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;. Disclaimer of Warranty&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000; background-color:#fefd80;&quot;&gt;Covered Software is provided under this License on an “as is” basis, without warranty of any kind, either expressed, implied, or statutory, including, without limitation, warranties that the Covered Software is free of defects, merchantable, fit for a particular purpose or non-infringing. The entire risk as to the quality and performance of the Covered Software is with You. Should any Covered Software prove defective in any respect, You (not any Contributor) assume the cost of any necessary servicing, repair, or correction. This disclaimer of warranty constitutes an essential part of this License. No use of any Covered Software is authorized under this License except under this disclaimer.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;limitation-of-liability&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;7&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;. Limitation of Liability&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000; background-color:#fefd80;&quot;&gt;Under no circumstances and under no legal theory, whether tort (including negligence), contract, or otherwise, shall any Contributor, or anyone who distributes Covered Software as permitted above, be liable to You for any direct, indirect, special, incidental, or consequential damages of any character including, without limitation, damages for lost profits, loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses, even if such party shall have been informed of the possibility of such damages. This limitation of liability shall not apply to liability for death or personal injury resulting from such party’s negligence to the extent applicable law prohibits such limitation. Some jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so this exclusion and limitation may not apply to You.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;litigation&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;8&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;. Litigation&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;Any litigation relating to this License may be brought only in the courts of a jurisdiction where the defendant maintains its principal place of business and such litigation shall be governed by laws of that jurisdiction, without reference to its conflict-of-law provisions. Nothing in this Section shall prevent a party’s ability to bring cross-claims or counter-claims.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;miscellaneous&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;9&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;. Miscellaneous&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;This License represents the complete agreement concerning the subject matter hereof. If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable. Any law or regulation which provides that the language of a contract shall be construed against the drafter shall not be used to construe this License against a Contributor.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;versions-of-the-license&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;0. Versions of the License&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;new-versions&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;0.1. New Versions&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;Mozilla Foundation is the license steward. Except as provided in Section 10.3, no one other than the license steward has the right to modify or publish new versions of this License. Each version will be given a distinguishing version number.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;effect-of-new-versions&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;0.2. Effect of New Versions&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;You may distribute the Covered Software under the terms of the version of the License under which You originally received the Covered Software, or under the terms of any subsequent version published by the license steward.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;modified-versions&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;0.3. Modified Versions&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;If you create software not governed by this License, and you want to create a new license for such software, you may create and use a modified version of this License if you rename the license and remove any references to the name of the license steward (except to note that such modified license differs from this License).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;distributing-source-code-form-that-is-incompatible-with-secondary-licenses&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;0.4. Distributing Source Code Form that is Incompatible With Secondary Licenses&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;If You choose to distribute Source Code Form that is Incompatible With Secondary Licenses under the terms of this version of the License, the notice described in Exhibit B of this License must be attached.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;exhibit-a---source-code-form-license-notice&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;E&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;xhibit A - Source Code Form License Notice&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:40px; margin-right:40px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;If it is not possible or desirable to put the notice in a particular file, then You may include the notice in a location (such as a LICENSE file in a relevant directory) where a recipient would be likely to look for such a notice.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;You may add additional accurate notices of copyright ownership.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;exhibit-b---incompatible-with-secondary-licenses-notice&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;E&lt;/span&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;xhibit B - “Incompatible With Secondary Licenses” Notice&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:40px; margin-right:40px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'serif'; font-size:8pt; color:#000000;&quot;&gt;This Source Code Form is “Incompatible With Secondary Licenses”, as defined by the Mozilla Public License, v. 2.0.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="tab_2">
+              <attribute name="title">
+               <string>Microsoft Software</string>
+              </attribute>
+              <layout class="QGridLayout" name="gridLayout_10">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QTextBrowser" name="textBrowser_2">
+                 <property name="html">
+                  <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot;&gt;MICROSOFT VISUAL STUDIO COMMUNITY 2015&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:18px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;MICROSOFT SOFTWARE LICENSE TERMS&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;MICROSOFT VISUAL STUDIO COMMUNITY 2015&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot;&gt;These license terms are an agreement between Microsoft Corporation (or based on where you live, one of its affiliates) and you. They apply to the software named above. The terms also apply to any Microsoft services or updates for the software, except to the extent those have different terms.&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;IF YOU COMPLY WITH THESE LICENSE TERMS, YOU HAVE THE RIGHTS BELOW.&lt;/span&gt;&lt;/p&gt;
+&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;INSTALLATION AND USE RIGHTS.&lt;/span&gt;&lt;/li&gt;
+&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Individual license.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; If you are an individual working on your own applications to sell or for any other purpose, you may use the software to develop and test those applications.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Organization licenses.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; If you are an organization, your users may use the software as follows:&lt;/span&gt;&lt;/li&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 3;&quot;&gt;&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;Any number of your users may use the software to develop and test your applications released under Open Source Initiative (OSI) approved open source software licenses.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;Any number of your users may use the software to develop and test Xamarin Studio or Visual Studio extensions and Xamarin Component Store or Visual Studio Marketplace components.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;Any number of your users may use the software to develop and test your applications as part of online or in person classroom training and education, or for performing academic research.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;If none of the above apply, and you are also not an enterprise (defined below), then up to 5 of your individual users can use the software concurrently to develop and test your applications.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;If you are an enterprise, your employees and contractors may not use the software to develop or test your applications, except for open source and education purposes as permitted above. An “enterprise” is any organization and its affiliates who collectively have either (a) more than 250 computers or users or (b) more than one million US dollars (or the equivalent in other currencies) in annual revenues, and “affiliates” means those entities that control (via majority ownership), are controlled by, or are under common control with an organization.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Demo use.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; The uses permitted above include use of the software in demonstrating your applications.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;TERMS FOR SPECIFIC COMPONENTS.&lt;/span&gt;&lt;/li&gt;
+&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Utilities.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; The software contains some items on the Utilities List at &lt;/span&gt;&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=523763&amp;amp;clcid=0x409&quot;&gt;&lt;span style=&quot; font-size:21px; text-decoration: underline; color:#0000ff;&quot;&gt;http://go.microsoft.com/fwlink/?LinkId=523763&amp;amp;clcid=0x409&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;. You may copy and install those items, if included with the software, on yours or other third party machines, to debug and deploy your applications and databases you developed with the software. Please note that Utilities are designed for temporary use, that Microsoft may not be able to patch or update Utilities separately from the rest of the software, and that some Utilities by their nature may make it possible for others to access machines on which they are installed. As a result, you should delete all Utilities you have installed after you finish debugging or deploying your applications and databases. Microsoft is not responsible for any third party use or access of Utilities you install on any machine.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Build Server&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;. The software contains some items on the Build Server List at &lt;/span&gt;&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=523763&amp;amp;clcid=0x409&quot;&gt;&lt;span style=&quot; font-size:21px; text-decoration: underline; color:#0000ff;&quot;&gt;http://go.microsoft.com/fwlink/?LinkId=523763&amp;amp;clcid=0x409&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;. You may install copies of those items, if included with the software, on your build machines. You and others in your organization may use these items on your build machines solely for the purposes of compiling, building, verifying and archiving your applications or running quality or performance tests as part of the build process.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Font Components.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; While the software is running, you may use its fonts to display and print content. You may only (i) embed fonts in content as permitted by the embedding restrictions in the fonts; and (ii) temporarily download them to a printer or other output device to help print content.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Licenses for other components.&lt;/span&gt;&lt;/li&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 3;&quot;&gt;&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Microsoft platforms.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; The software may include components from Microsoft Windows; Microsoft Windows Server; Microsoft SQL Server; Microsoft Exchange; Microsoft Office; and Microsoft SharePoint. These components are governed by separate agreements and their own product support policies, as described in the license terms found in the installation directory for that component or in the “Licenses” folder accompanying the software.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Developer resources.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; The software includes compilers, languages, runtimes, environments, and other resources. These components may be governed by separate agreements and have their own product support policies. A list of these other components is located at &lt;/span&gt;&lt;a href=&quot;http://www.support.microsoft.com/common/international.aspx&quot;&gt;&lt;span style=&quot; font-size:21px; text-decoration: underline; color:#0000ff;&quot;&gt;www.support.microsoft.com/common/international/.aspx&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Third party components.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; The software may include third party components with separate legal notices or governed by other agreements, as described in the ThirdPartyNotices file accompanying the software. Even if such components are governed by other agreements, the disclaimers and the limitations on and exclusions of damages below also apply.&lt;br /&gt;The software may also include components licensed under open source licenses with source code availability obligations. Copies of those licenses, if applicable, are included in the ThirdPartyNotices file. You may obtain this source code from us, if and as required under the relevant open source licenses, by sending a money order or check for $5.00 to: Source Code Compliance Team, Microsoft Corporation, 1 Microsoft Way, Redmond, WA 98052. Please write “source code for Microsoft Visual Studio Community 2015” in the memo line of your payment. We may also make a copy of the source code available at &lt;/span&gt;&lt;a href=&quot;http://thirdpartysource.microsoft.com&quot;&gt;&lt;span style=&quot; font-size:21px; text-decoration: underline; color:#0000ff;&quot;&gt;http://thirdpartysource.microsoft.com&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Package Managers&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;. The software includes package managers, like NuGet, that give you the option to download other Microsoft and third party software packages to use with your application. Those packages are under their own licenses, and not this agreement. Microsoft does not distribute, license or provide any warranties for any of the third party packages.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;DISTRIBUTABLE CODE.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; The software contains code that you are permitted to distribute in applications you develop if you comply with the terms below. (For this Section the term “distribution” also means deployment of your applications for third parties to access over the Internet.)&lt;/span&gt;&lt;/li&gt;
+&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Distribution Rights.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; The code and text files listed below are “Distributable Code.”&lt;/span&gt;&lt;/li&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 3;&quot;&gt;&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;REDIST.TXT Files. You may copy and distribute the object code form of code listed on the REDIST list located at &lt;/span&gt;&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=523763&amp;amp;clcid=0x409&quot;&gt;&lt;span style=&quot; font-size:21px; text-decoration: underline; color:#0000ff;&quot;&gt;http://go.microsoft.com/fwlink/?LinkId=523763&amp;amp;clcid=0x409&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;Sample Code, Templates and Styles. You may copy, modify and distribute the source and object code form of code marked as “sample”, “template”, “Simple Styles” or “Sketch Styles”.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;Image Library. You may copy and distribute images, graphics and animations in the Image Library as described in the software documentation.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;Third Party Distribution. You may permit distributors of your applications to copy and distribute the Distributable Code as part of those applications.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Distribution Requirements.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; For any Distributable Code you distribute, you must:&lt;/span&gt;&lt;/li&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 3;&quot;&gt;&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;add significant primary functionality to it in your applications; and&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;require distributors and external end users to agree to terms that protect the Distributable Code at least as much as this agreement.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Distribution Restrictions.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; You may not:&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 3;&quot;&gt;&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;use Microsoft’s trademarks in your applications’ names or branding in a way that suggests your applications come from or are endorsed by Microsoft; or&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;modify or distribute the source code of any Distributable Code so that any part of it becomes subject to an Excluded License. An “Excluded License” is one that requires, as a condition of use, modification or distribution, that (i) the code be disclosed or distributed in source code form; or (ii) others have the right to modify it.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;DATA.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; The software may collect information about you and your use of the software, and send that to Microsoft. Microsoft may use this information to provide services and improve our products and services. You may opt-out of many of these scenarios, but not all, as described in the product documentation. There are also some features in the software that may enable you to collect data from users of your applications. If you use these features to enable data collection in your applications, you must comply with applicable law, including providing appropriate notices to users of your applications. You can learn more about data collection and use in the help documentation and the privacy statement at &lt;/span&gt;&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=528096&amp;amp;clcid=0x409&quot;&gt;&lt;span style=&quot; font-size:21px; text-decoration: underline; color:#0000ff;&quot;&gt;http://go.microsoft.com/fwlink/?LinkId=528096&amp;amp;clcid=0x409&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;. Your use of the software operates as your consent to these practices.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;SCOPE OF LICENSE.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; The software is licensed, not sold. This agreement only gives you some rights to use the software. Microsoft reserves all other rights. Unless applicable law gives you more rights despite this limitation, you may use the software only as expressly permitted in this agreement. In doing so, you must comply with any technical limitations in the software that only allow you to use it in certain ways. For more information, see &lt;/span&gt;&lt;a href=&quot;http://www.microsoftvolumelicensing.com&quot;&gt;&lt;span style=&quot; font-size:21px; text-decoration: underline; color:#0000ff;&quot;&gt;www.microsoftvolumelicensing.com&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;. You may not&lt;/span&gt;&lt;/li&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;work around any technical limitations in the software;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;reverse engineer, decompile or disassemble the software, or attempt to do so, except and only to the extent required by third party licensing terms governing the use of certain open-source components that may be included with the software;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;remove, minimize, block or modify any notices of Microsoft or its suppliers in the software;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;use the software in any way that is against the law;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;share, publish, rent or lease the software, or provide the software as a stand-alone hosted solution for others to use.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;SUPPORT SERVICES.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; Because this software is “as is,” we may not provide support services for it.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;ENTIRE AGREEMENT.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; This agreement, and the terms for supplements, updates, Internet-based services and support services that you use, are the entire agreement for the software and support services.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;EXPORT RESTRICTIONS. &lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;You must comply with all domestic and international export laws and regulations that apply to the software, which include restrictions on destinations, end users, and end use. For further information on export restrictions, visit (&lt;/span&gt;&lt;a href=&quot;http://aka.ms/exporting&quot;&gt;&lt;span style=&quot; font-size:21px; text-decoration: underline; color:#0000ff;&quot;&gt;aka.ms/exporting&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;).&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;APPLICABLE LAW.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; If you acquired the software in the United States, Washington law applies to interpretation of and claims for breach of this agreement, and the laws of the state where you live govern all other claims. If you acquired the software in any other country, its laws apply.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;CONSUMER RIGHTS; REGIONAL VARIATIONS.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; This agreement describes certain legal rights. You may have other rights, including consumer rights, under the laws of your state or country. Separate and apart from your relationship with Microsoft, you may also have rights with respect to the party from which you acquired the software. This agreement does not change those other rights if the laws of your state or country do not permit it to do so. For example, if you acquired the software in one of the below regions, or mandatory country law applies, then the following provisions apply to you:&lt;/span&gt;&lt;/li&gt;
+&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Australia.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; You have statutory guarantees under the Australian Consumer Law and nothing in this agreement is intended to affect those rights.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Canada.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt; If you acquired this software in Canada, you may stop receiving updates by turning off the automatic update feature, disconnecting your device from the Internet (if and when you re-connect to the Internet, however, the software will resume checking for and installing updates), or uninstalling the software. The product documentation, if any, may also specify how to turn off updates for your specific device or software.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Germany and Austria&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 4;&quot;&gt;&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Warranty&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;. The properly licensed software will perform substantially as described in any Microsoft materials that accompany the software. However, Microsoft gives no contractual guarantee in relation to the licensed software.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;Limitation of Liability&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;. In case of intentional conduct, gross negligence, claims based on the Product Liability Act, as well as, in case of death or personal or physical injury, Microsoft is liable according to the statutory law.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:2; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot;&gt;Subject to the foregoing clause (ii), Microsoft will only be liable for slight negligence if Microsoft is in breach of such material contractual obligations, the fulfillment of which facilitate the due performance of this agreement, the breach of which would endanger the purpose of this agreement and the compliance with which a party may constantly trust in (so-called “cardinal obligations”). In other cases of slight negligence, Microsoft will not be liable for slight negligence.&lt;/span&gt;&lt;/p&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;DISCLAIMER OF WARRANTY. THE SOFTWARE IS LICENSED “AS-IS.” YOU BEAR THE RISK OF USING IT. MICROSOFT GIVES NO EXPRESS WARRANTIES, GUARANTEES OR CONDITIONS. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAWS, MICROSOFT EXCLUDES THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:21px; font-weight:600;&quot;&gt;LIMITATION ON AND EXCLUSION OF DAMAGES. YOU CAN RECOVER FROM MICROSOFT AND ITS SUPPLIERS ONLY DIRECT DAMAGES UP TO U.S. $5.00. YOU CANNOT RECOVER ANY OTHER DAMAGES, INCLUDING CONSEQUENTIAL, LOST PROFITS, SPECIAL, INDIRECT OR INCIDENTAL DAMAGES.&lt;/span&gt;&lt;span style=&quot; font-size:21px;&quot;&gt;This limitation applies to (a) anything related to the software, services, content (including code) on third party Internet sites, or third party applications; and (b) claims for breach of contract, breach of warranty, guarantee or condition, strict liability, negligence, or other tort to the extent permitted by applicable law.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot;&gt;It also applies even if Microsoft knew or should have known about the possibility of the damages. The above limitation or exclusion may not apply to you because your state or country may not allow the exclusion or limitation of incidental, consequential or other damages.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot;&gt;* * *&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:8pt; font-weight:600; color:#000000;&quot;&gt;Notice about video codecs.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot;&gt; The software may include H.264/MPEG-4 AVC and/or VC-1 decoding technology. MPEG LA, L.L.C. requires this notice:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot;&gt;THIS PRODUCT IS LICENSED UNDER THE H.264/AVC AND THE VC-1 PATENT PORTFOLIO LICENSES FOR THE PERSONAL AND NON-COMMERCIAL USE OF A CONSUMER TO (i) ENCODE VIDEO IN COMPLIANCE WITH THE ABOVE STANDARDS (“VIDEO STANDARDS”) AND/OR (ii) DECODE AVC, AND VC-1 VIDEO THAT WAS ENCODED BY A CONSUMER ENGAGED IN A PERSONAL AND NON-COMMERCIAL ACTIVITY AND/OR WAS OBTAINED FROM A VIDEO PROVIDER LICENSED TO PROVIDE SUCH VIDEO. NONE OF THE LICENSES EXTEND TO ANY OTHER PRODUCT REGARDLESS OF WHETHER SUCH PRODUCT IS INCLUDED WITH THIS SOFTWARE IN A SINGLE ARTICLE. NO LICENSE IS GRANTED OR SHALL BE IMPLIED FOR ANY OTHER USE. ADDITIONAL INFORMATION MAY BE OBTAINED FROM MPEG LA, L.L.C. SEE &lt;/span&gt;&lt;a href=&quot;http://WWW.MPEGLA.COM&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:8pt; text-decoration: underline; color:#0000ff;&quot;&gt;WWW.MPEGLA.COM.&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot;&gt;For clarity, this notice does not limit use of the software for normal business uses for that business which do not include (i) redistribution of the decoding technology to third parties, or (ii) creation of content with the VIDEO STANDARDS compliant technologies for distribution to third parties.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:8pt; color:#000000;&quot;&gt;EULAID: VS2015_RTM_VSCommunity_ENU.Update2RTW.1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_4">
+          <layout class="QGridLayout" name="gridLayout_4">
+           <item row="3" column="0">
+            <spacer name="verticalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_12">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#00557f;&quot;&gt;Ready to install&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_16">
+             <property name="text">
+              <string>Installer is now ready to being installing PHPQt5 SDK Tools on your PC.</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_17">
+             <property name="text">
+              <string>Click Install to continue with the installation, or click Back if you want to change any settings.</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_5">
+          <layout class="QGridLayout" name="gridLayout_8">
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_19">
+             <property name="text">
+              <string>Please wait while Installer installs PHPQt5 SDK Tools on your PC.</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_18">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#00557f;&quot;&gt;Installing&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QProgressBar" name="progressBar">
+             <property name="value">
+              <number>0</number>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QPlainTextEdit" name="plainTextEdit">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_6">
+          <layout class="QGridLayout" name="gridLayout_11">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_20">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#00557f;&quot;&gt;Installation completed&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_21">
+             <property name="text">
+              <string>The PHPQt5 SDK Tools was successfully installed.</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <spacer name="verticalSpacer_4">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_22">
+             <property name="text">
+              <string>Click Finish to exit installer.</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_7">
+          <layout class="QGridLayout" name="gridLayout_12">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_23">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#00557f;&quot;&gt;Installation not completed&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <spacer name="verticalSpacer_5">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_24">
+             <property name="text">
+              <string>Something went wrong :|</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="1" column="1">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="2">
+        <widget class="QPushButton" name="pushButton_next">
+         <property name="text">
+          <string>Next</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QPushButton" name="pushButton_cancel">
+         <property name="text">
+          <string>Cancel</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="pushButton_back">
+         <property name="text">
+          <string>Back</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="assets.qrc"/>
+ </resources>
+ <connections/>
+</ui>
